@@ -1,0 +1,57 @@
+Matematik funksiyalar
+1-max (3xil qiymatdan maxsimalini tanlidi)
+2-min (3xil qiymatdan minimalini tanlidi)
+3-calc (berilgan qiymatlani hisoblidi)
+
+position 
+	location
+		1-top
+		2-bottom
+		3-left
+		4-right
+	values
+		static(default holatdagi qiymati)
+		relative (oz joyidan oqib tushadi lekin joyini yoqotimidi
+		absolute (oz joyini yoqatada)
+		fixed (scroll qiganda ekran bilan birga yuradi yani ekranga qotib qoladi)
+		sticky (fixed bilan birxil)
+
+OVERLAPPING 
+	Z Index (shunga qanchalik katta qiymat berilsa osha element eng kuchlisi boladi)
+	static propertisiga ishlamidi
+
+FIXED AND STICKY NAVBAR 
+	HEADER {
+		position: fixed;
+		top:0;
+		width: 100%;
+	}
+	shu korinishida boladi
+
+JUMPING 
+	a hrefini ichiga sectionni id nomini # shu belgi bilan yoziladi
+	(uning vazifasi linkni ustiga bosganda kerakli bolimga oboradi)
+
+SCROLL BEHAVIOUR
+	HTML TAGIGIA scroll behaviour iga smooth beramiz
+
+	DROPDOWN 
+		.dropdown {
+	  position: relative;
+	}
+
+	.dropdown-content {
+  		position: absolute;
+  		display: none;
+	}
+
+	.dropdown:hover .dropdown-content {
+  		display: block;
+	}
+
+SHU KORINISHDA YOZILADI
+
+BACKTOP 
+(backtopning vazifasi saytda pastga scroll qiganda yana tepaga qaytib olib chiqadi)
+(uning kodlari java scriptdaham yoziladi
+
